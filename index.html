@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sergiu-Mihai Hategan</title>
+<meta name="description" content="Physicist at the West University of Timișoara. Solar irradiance forecasting and post-processing of weather-model output.">
+<style>
+  :root { --navy: #0A2540; --blue: #1F5FA8; --ink: #1A1A1A; --muted: #5B6676; --line: #D9DDE3; --tint: #F2F4F7; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: var(--ink); background: #fff; line-height: 1.5; }
+  header { background: var(--navy); color: #fff; padding: 2.2rem 1.25rem 1.8rem; }
+  main, header > div { max-width: 40rem; margin: 0 auto; }
+  h1 { margin: 0 0 .3rem; font-size: 1.7rem; line-height: 1.2; }
+  header p { margin: 0; color: #C9D3E0; }
+  main { padding: 1.5rem 1.25rem 3rem; }
+  .links { display: grid; gap: .7rem; margin: 0 0 2rem; padding: 0; list-style: none; }
+  .links a { display: block; padding: .95rem 1.1rem; border: 2px solid var(--navy); border-radius: 10px; color: var(--navy); font-weight: bold; text-decoration: none; }
+  .links a:hover, .links a:focus-visible { background: var(--navy); color: #fff; }
+  .links a.primary { background: var(--blue); border-color: var(--blue); color: #fff; }
+  .links small { display: block; font-weight: normal; opacity: .85; }
+  h2 { font-size: 1.05rem; color: var(--navy); margin: 0 0 .5rem; }
+  .poster { background: var(--tint); border-radius: 10px; padding: 1.1rem 1.2rem; }
+  .poster h3 { margin: 0 0 .6rem; font-size: 1.05rem; line-height: 1.35; }
+  .poster ul { margin: 0; padding-left: 1.1rem; }
+  .poster li { margin-bottom: .4rem; }
+  footer { margin-top: 2rem; color: var(--muted); font-size: .9rem; border-top: 1px solid var(--line); padding-top: 1rem; }
+</style>
+</head>
+<body>
+<header><div>
+  <h1>Sergiu-Mihai Hategan</h1>
+  <p>Physicist, West University of Timișoara, Romania</p>
+</div></header>
+<main>
+  <!-- EDIT: replace YOUR-USERNAME and YOUR-LINKEDIN below; put the poster PDF next to this file as poster.pdf -->
+  <ul class="links">
+    <li><a class="primary" href="poster.pdf">WCPEC-9 poster (PDF)<small>MAE-optimized ensemble for post-processing GFS irradiance forecasts</small></a></li>
+    <li><a href="https://scholar.google.com/citations?user=oUgElv0AAAAJ">Google Scholar<small>Publications</small></a></li>
+    <li><a href="https://github.com/YOUR-USERNAME">GitHub<small>Code</small></a></li>
+    <li><a href="https://www.linkedin.com/in/YOUR-LINKEDIN">LinkedIn</a></li>
+    <li><a href="mailto:sergiu.hategan98@e-uvt.ro">sergiu.hategan98@e-uvt.ro</a></li>
+  </ul>
+
+  <h2>The poster in three lines</h2>
+  <section class="poster">
+    <h3>MAE-Optimized Machine Learning Ensemble for Post-Processing GFS Solar Irradiance Forecasts in East Asia</h3>
+    <ul>
+      <li>Post-processing cuts the error of raw GFS by 11–21% at three BSRN stations (Ishigakijima, Tateno, Qiqihar; 2024, blocked 5-fold test).</li>
+      <li>Training on MAE instead of MSE lowers the MAE at every station; a sky-class bias correction keeps RMSE and bias level with MSE training.</li>
+      <li>With asymmetric imbalance prices, forecasting the cost-matched quantile instead of the mean cuts the cost by 18–22% at 3:1.</li>
+    </ul>
+  </section>
+
+  <footer>WCPEC-9, Daejeon, 15–20 November 2026</footer>
+</main>
+</body>
+</html>
